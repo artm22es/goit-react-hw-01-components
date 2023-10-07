@@ -1,0 +1,36 @@
+.transactionTable {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.tableHead {
+    font-size: 22px;
+}
+
+
+
+.tableHeadItem {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: rgb(4, 211, 211);
+}
+
+.transactionTableBody {
+    text-align: center;
+}
+
+.transactionTableBodyTr:nth-child(even) {
+    background-color: rgb(179, 185, 206);
+}
+
+.transactionTableBodyTr:nth-child(odd) {
+    background-color: rgb(201, 207, 228);
+}
+
+.transactionTableBodyItem {
+    font-size: 18px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
